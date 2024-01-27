@@ -25,6 +25,8 @@ img {
   /* logo */
   .header{
   border-bottom: 1px solid #E7E9FC;
+  padding: 24px 0;
+  background: #FFF;
 }
   .logo-container{
    display: flex;
