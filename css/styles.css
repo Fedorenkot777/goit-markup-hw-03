@@ -26,9 +26,9 @@ img {
   .header{
   border-bottom: 1px solid #E7E9FC;
 }
-  .Logo-container{
-   margin: 0 auto; 
+  .logo-container{
    display: flex;
+   align-items: center; 
    justify-content: space-between;
 }
 .logo-nav{
