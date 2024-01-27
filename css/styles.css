@@ -48,6 +48,7 @@ img {
      margin-right: 76px;
      margin-bottom: 0;
      padding: 24px 0;
+     display: flex;
      text-decoration: none;
 }
 
