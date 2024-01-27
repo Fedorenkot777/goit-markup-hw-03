@@ -10,7 +10,9 @@ ul, ol {
    margin: 0;
    padding-left: 0;
 }
-
+.img{
+   display: block;
+}
 .container {
       width: 1158px;
       padding-left: 15px;
