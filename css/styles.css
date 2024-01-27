@@ -43,10 +43,9 @@ ul, ol {
      text-transform: uppercase;
      font-family: "Raleway", sans-serif;
      width: 496px;
-     margin-bottom: 0;
      margin-right: 76px;
+     margin-bottom: 0;
      padding: 24px 0;
-     display: flex;
 }
 
  .logo-accent {
@@ -82,6 +81,11 @@ ul, ol {
     margin: 0;
  }
 
+.contacts-ul {
+   display: flex;
+   gap: 40px;
+ }
+
  .contacts-list{
    color: #434455;
    text-decoration: none;
@@ -91,6 +95,7 @@ ul, ol {
    padding: 24px 0;
    display: block;
 }
+
  .contacts-list:hover,
  .contacts-list:focus,
  .logo-list:hover,
@@ -254,7 +259,6 @@ ul, ol {
   column-gap: 24px;
   row-gap: 48px;
   display: flex;
-  flex-wrap: wrap;
 }
 
 .team-list-li {
@@ -270,18 +274,18 @@ ul, ol {
 }
 
 .portfolio-cards {
-   border: 1px solid #E7E9FC;
    padding: 32px 16px;
+   border: 1px solid #E7E9FC;
    border-top: none;
 }
 
 .title-p {
+    margin-bottom: 8px;
     color: #2e2f42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.02em;
-    margin-bottom: 8px;
+    letter-spacing: 0.02em; 
 }
 
 .descr {
