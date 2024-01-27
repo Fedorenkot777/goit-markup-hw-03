@@ -10,11 +10,13 @@ ul, ol {
    margin: 0;
    padding-left: 0;
 }
-.img{
+
+img {
    display: block;
-}
+ }
+
 .container {
-      width: 1158px;
+      max-width: 1158px;
       padding-left: 15px;
       padding-right: 15px;
       margin: 0 auto;
@@ -88,6 +90,7 @@ ul, ol {
 .contacts-ul {
    display: flex;
    gap: 40px;
+   margin-left: 332px;
  }
 
  .contacts-list{
@@ -97,7 +100,7 @@ ul, ol {
    line-height: 1.5;
    margin: 0;
    padding: 24px 0;
-   display: flex;
+   display: block;
 }
 
  .contacts-list:hover,
